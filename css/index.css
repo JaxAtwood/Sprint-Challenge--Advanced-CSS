@@ -183,7 +183,7 @@ p {
     width: 75%;
   }
 }
-a {
+.Navigation a {
   text-decoration: none;
   color: black;
   font-size: 15px;
@@ -196,6 +196,10 @@ a {
   .headerImg {
     width: 100%;
   }
+}
+.bigImage {
+  width: 100%;
+  border-radius: 20px;
 }
 footer {
   color: #22283B;
@@ -311,4 +315,26 @@ footer {
   .btn {
     width: 90%;
   }
+}
+.aboutUsimages {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.aboutUsimages img {
+  width: 28%;
+  height: 100%;
+  border-radius: 20px;
+}
+.purple {
+  margin-right: 40px;
+  margin-top: 45px;
+}
+.astronaut {
+  margin-top: 20px;
+}
+.floating {
+  margin-left: 40px;
+  margin-top: 45px;
 }
