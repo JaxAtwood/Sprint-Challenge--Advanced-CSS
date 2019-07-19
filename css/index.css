@@ -256,3 +256,7 @@ footer {
   color: white;
   font-size: 15px;
 }
+.btn:hover {
+  background-color: white;
+  color: #23293B;
+}

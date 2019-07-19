@@ -10,7 +10,7 @@
     border-radius: 20px;
 }
 
-.forTheButton(@bgColor: #23293B, @textColor: white, @fontSize: 15px) {
+.forTheButton(@bgColor: #23293B, @textColor:white, @fontSize: 15px) {
     background: @bgColor;
     font-family: 'Russo One', sans-serif;
     width: 120px;
@@ -18,4 +18,9 @@
     border-radius: 8px;
     color: @textColor;
     font-size: @fontSize;
+    
+    &:hover{
+        background-color:@textColor;
+        color:@bgColor; 
+      }
   }
