@@ -1,1 +1,41 @@
 // Navigation code here
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f4f4f4;
+    h1 {
+        font-size: 35px;
+        margin: 20px;
+        .fontSpecs();
+    }
+}
+.Navigation {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    @media @phone {
+        width:75%;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+.headerImg {
+    border-radius: 10px;
+    @media @phone {
+        width: 100%;
+    }
+}
+
+//About Us Page Navigation
+
+.bigImage {
+    width: 100%;
+    .picBorders();    
+}
